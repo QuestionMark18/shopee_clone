@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/icon/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <div class="web">
+        <!-- ==================== -->
+        <!-- ====== Header ====== -->
+        <header class="header">
+            <!-- .................... -->
+            <!-- ...... Navbar ...... -->
+            <div class="grid">
+                <div class="header__navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__list-item list--line">
+                            <a href="" class="item__link">Kênh người bán</a>
+                        </li>
+
+                        <li class="navbar__list-item list--line">
+                            <a href="" class="item__link">Trở thành Người bán</a>
+                        </li>
+
+                        <li class="navbar__list-item list--line show-download">
+                            <a href="https://shopee.vn/web" class="item__link">Tải ứng dụng</a>
+                            <div class="download">
+                                <img src="./assets/image/QR_code.png" alt="" class="qr-code">
+                                <div class="app-download">
+                                    <img src="./assets/image/app_store.png" alt="" class="app">
+                                    <img src="./assets/image/gg_play.png" alt="" class="app">
+                                    <img src="./assets/image/app_gallery.png" alt="" class="app">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="navbar__list-item">
+                            <span class="no-hover">Kết nối</span>
+                            <a href="" class="icon-link"><i class="item__icon fa-brands fa-facebook"></i></a>
+                            <a href="" class="icon-link"><i class="item__icon fa-brands fa-instagram"></i></a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar__list">
+                        <li class="navbar__list-item show-notify">
+                            <div class="item__link">
+                                <i class="item__icon fa-solid fa-bell"></i>
+                                Thông báo
+                            </div>
+                            <div class="notify subnav-layout">
+                                <img src="./assets/image/user.png" alt="user" class="notify-user">
+                                <p class="notify-header">Đăng nhập để xem Thông báo</p>
+                                <div class="notify__acc">
+                                    <a href="" class="acc__register acc--btn">Đăng ký</a>
+                                    <a href="" class="acc__login acc--btn">Đăng nhập</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__list-item">
+                            <div class="item__link">
+                                <i class="item__icon fa-solid fa-circle-question"></i>
+                                <a href="" class="link">Hỗ trợ</a>
+                            </div>
+                        </li>
+                        <li class="navbar__list-item show-lang">
+                            <div class="item__link">
+                                <i class="item__icon fa-solid fa-globe"></i>
+                                Ngôn Ngữ
+                            </div>
+                            <div class="language subnav-layout">
+                                <div class="lang lang__vie">Tiếng Việt</div>
+                                <div class="lang lang__us">Tiếng Anh</div>
+                            </div>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </li>
+                        <li class="navbar__list-item list--line">
+                            <a href="" class="item__link">Đăng kí</a>
+                        </li>
+                        <li class="navbar__list-item">
+                            <a href="" class="item__link">Đăng nhập</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- ...... Navbar ...... -->
+            <!-- .................... -->
+            <!-- .... Search bar .... -->
+            <div class="grid">
+                <div class="header__searchbar">
+                    <div class="searchbar__logo">
+                        <a href="./index.html" class="home">
+                            <img class="logo__img" src="./assets/image/logo-removebg-preview.png" alt="shopee logo">
+                        </a>
+                    </div>
+
+                    <div class="searchbar__search-box">
+                        <input type="text" class="search-box__search-input" placeholder="Tìm kiếm">
+                        <button class="search-box__search-btn">
+                            <i class="search-btn__icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+
+                    <div class="searchbar__cart">
+                        <div class="cart-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <div class="cart-info subnav-layout">
+                                <img src="./assets/image/cart.png" alt="" class="cart-info__img">
+                                <div class="cart-inof__text">Chưa Có Sản Phẩm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- .... Search bar .... -->
+            <!-- .................... -->
+
+        </header>
+        <!-- ====== Header ====== -->
+        <!-- ==================== -->
+        <!-- ===== Container ==== -->
+        <div class="container">
+            <div class="grid">
+                <!-- .................... -->
+                <!-- ...... Filter ...... -->
+                <div class="container__filter">
+                    <header class="filter__header">
+                        <i class="filter-icon fa-solid fa-filter"></i>
+                        Bộ lọc tìm kiếm
+                    </header>
+
+                    <div class="filter-group filter--type">
+                        <div class="filter-group__header">Theo Danh Mục</div>
+                        <ul class="filter-checkbox-list">
+                            <li class="filter-checkbox">
+                                <input class="check-box" type="checkbox">
+                                <span>Giày Thể Thao / Sneaker</span>
+                            </li>
+                            <li class="filter-checkbox">
+                                <input class="check-box" type="checkbox">
+                                <span>Giày Dép Thời Trang</span>
+                            </li>
+                            <li class="filter-checkbox">
+                                <input class="check-box" type="checkbox">
+                                <span>Phụ Kiện Giày Dép</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="filter-group filter--origin">
+                        <div class="filter-group__header">Nơi Bán</div>
+                        <ul class="filter-checkbox-list">
+                            <li class="filter-checkbox">
+                                <input class="check-box" type="checkbox">
+                                <span>Hà Nội</span>
+                            </li>
+                            <li class="filter-checkbox">
+                                <input class="check-box" type="checkbox">
+                                <span>TP. Hồ Chí Minh</span>
+                            </li>
+                            <li class="filter-checkbox">
+                                <input class="check-box" type="checkbox">
+                                <span>Nước Ngoài</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="filter-group filter--price">
+                        <div class="filter-group__header">Khoảng Giá</div>
+                        <div class="price-input">
+                            <input class="price" type="text" placeholder="đ TỪ">
+                            <span style="color: #999;">_</span>
+                            <input class="price" type="text" placeholder="đ ĐẾN">
+                        </div>
+                        <button class="apply-price-btn">Áp dụng</button>
+                    </div>
+
+                    <div class="filter-group filter--shop">
+                        <div class="filter-group__header">Loại Shop</div>
+                        <ul class="filter-checkbox-list">
+                            <li class="filter-checkbox">
+                                <input class="check-box" type="checkbox">
+                                <span>Shop Yêu Thích</span>
+                            </li>
+                            <li class="filter-checkbox">
+                                <input class="check-box" type="checkbox">
+                                <span>Shop Yêu Thích +</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="filter-group filter--status">
+                        <div class="filter-group__header">Tình Trạng</div>
+                        <ul class="filter-checkbox-list">
+                            <li class="filter-checkbox">
+                                <input class="check-box" type="checkbox">
+                                <span>Mới</span>
+                            </li>
+                            <li class="filter-checkbox">
+                                <input class="check-box" type="checkbox">
+                                <span>Đã sử dụng</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="filter-group filter--rate">
+                        <div class="filter-group__header">Đánh Giá</div>
+                        <div>
+                            <ul class="filter-checkbox-list">
+                                <li class="filter-checkbox">
+                                    <input class="check-box" type="checkbox">
+                                    <i class="rate-star fa-solid fa-star"></i>
+                                    <i class="rate-star fa-solid fa-star"></i>
+                                    <i class="rate-star fa-solid fa-star"></i>
+                                    <i class="rate-star fa-solid fa-star"></i>
+                                    <i class="rate-star fa-solid fa-star"></i>
+                                </li>
+                                <li class="filter-checkbox">
+                                    <input class="check-box" type="checkbox">
+                                    <i class="rate-star fa-solid fa-star"></i>
+                                    <i class="rate-star fa-solid fa-star"></i>
+                                    <i class="rate-star fa-solid fa-star"></i>
+                                    <i class="rate-star fa-solid fa-star"></i>
+                                </li>
+                                <li class="filter-checkbox">
+                                    <input class="check-box" type="checkbox">
+                                    <i class="rate-star fa-solid fa-star"></i>
+                                    <i class="rate-star fa-solid fa-star"></i>
+                                    <i class="rate-star fa-solid fa-star"></i>
+                                </li>
+                                <li class="filter-checkbox">
+                                    <input class="check-box" type="checkbox">
+                                    <i class="rate-star fa-solid fa-star"></i>
+                                    <i class="rate-star fa-solid fa-star"></i>
+                                </li>
+                                <li class="filter-checkbox">
+                                    <input class="check-box" type="checkbox">
+                                    <i class="rate-star fa-solid fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="filter-group filter--promotion-services">
+                        <div class="filter-group__header">Dịch Vụ & Khuyến Mãi</div>
+                        <ul class="filter-checkbox-list">
+                            <li class="filter-checkbox">
+                                <input class="check-box" type="checkbox">
+                                <span>Freeship Xtra</span>
+                            </li>
+                            <li class="filter-checkbox">
+                                <input class="check-box" type="checkbox">
+                                <span>Hoàn xu Xtra</span>
+                            </li>
+                            <li class="filter-checkbox">
+                                <input class="check-box" type="checkbox">
+                                <span>Đang giảm giá</span>
+                            </li>
+                            <li class="filter-checkbox">
+                                <input class="check-box" type="checkbox">
+                                <span>Miễn phí vận chuyển</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <footer class="filter__footer">
+                        <button class="filter-remove-btn">Xóa tất cả</button>
+                    </footer>
+                </div>
+                <!-- ...... Filter ...... -->
+                <!-- .................... -->
+                <!-- ...... Content ..... -->
+
+                <div class="container__content">
+                    <!-- = Sort bar = -->
+                    <div class="content__sort-bar">
+                        <span class="sort-bar__label">Sắp xếp theo</span>
+                        <div class="sort-option-list">
+                            <div class="sort-option">Liên quan</div>
+                            <div class="sort-option">Mới nhất</div>
+                            <div class="sort-option">Bán chạy</div>
+                            <div class="sort-by-price">
+                                <div class="sort-by-price__placeholder">Giá</div>
+                                <span class="sort-by-price__icon">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+
+                                <ul class="sort-by-price--choose-list">
+                                    <li class="shoose">Thấp đến Cao</li>
+                                    <li class="shoose">Cao đến Thấp</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="sort-bar__page-controller">
+                            <span class="page-controller__stase">1/50</span>
+                            <button class="page-controller__prev-btn">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </button>
+                            <button class="page-controller__next-btn">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- = Sort bar = -->
+
+                    <!-- = Item list = -->
+                    <div class="content__item-list row-pc">
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content__item col-pc">
+                            <div class="content__item--boder">
+                                <div class="item-img">
+                                    <div class="item-img__favorite-shop">Yêu thích</div>
+                                    <div class="item-img__discount">
+                                        <span class="discount-rate">50%</span>
+                                        <span>GIẢM</span>
+                                    </div>
+                                </div>
+                                <div class="item-infor">
+                                    <header class="item-infor__name">Nike Air Jordan I</header>
+                                    <div class="item-infor__price">
+                                        <div class="cost">1.999.999</div>
+                                        <div class="price">999.999</div>
+                                    </div>
+                                    <div class="item-infor__rate">
+                                        <div class="rate-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="sold">Đã bán 2,3k</div>
+                                    </div>
+                                    <div class="item-infor__warehouse">Việt Nam</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- = Item list = -->
+                </div>
+                <!-- ...... Content ..... -->
+                <!-- .................... -->
+
+            </div>
+        </div>
+        <!-- ===== Container ==== -->
+        <!-- ==================== -->
+        <!-- ====== Footer ====== -->
+        <footer class="footer">
+            
+        </footer>
+        <!-- ====== Footer ====== -->
+        <!-- ==================== -->
+    </div>
+</body>
+
+</html>

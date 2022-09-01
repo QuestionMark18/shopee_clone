@@ -1,0 +1,20 @@
+/* PC */
+@media (min-width: 1024px) {
+    .col-pc {
+        height: 340px;
+        width: 20%;
+        height: 100%;
+        margin: 12px 0;
+        padding: 0 8px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 1023px) and (min-width: 740px) {
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+
+}
