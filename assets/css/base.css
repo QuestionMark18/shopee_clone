@@ -23,6 +23,7 @@ html {
     font-size: 62.5%;
     line-height: 1.6rem;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -52,6 +53,8 @@ body {
     border-radius: 4px;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
     position: absolute;
+    top: 0;
+    right: 40px;
     transform-origin: calc(100% - 40px) top;
 }
 
